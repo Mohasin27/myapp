@@ -13,7 +13,7 @@ function App() {
         <div id="nt_wrapper" className="App">
           <HeaderSection />
           <HomeSection />
-            <FooterSection />
+          <FooterSection />
     </div>
   );
 }
