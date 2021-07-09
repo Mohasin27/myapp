@@ -7,7 +7,7 @@ function FooterCopyright() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 col-md-12 col-12">
-                            Copyright © 2021 <span className="cp">Hitachi Solutions</span> all rights reserved.
+                            Copyright &copy; 2021 <span className="cp">Hitachi Solutions</span> all rights reserved.
                             </div>
                         <div className="col-lg-6 col-md-12 col-12 col_2">
                             <ul id="footer-menu" className="clearfix">
