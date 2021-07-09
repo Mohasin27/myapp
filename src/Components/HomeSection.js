@@ -1,5 +1,7 @@
 import React from 'react';
-//import images from './images';
+
+import NewsletterSubscription from './Newsletter';
+import ShippingInfo from './HomeShippingInfo';
 
 function HomeSection() {
     return (
