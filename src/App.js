@@ -1,6 +1,6 @@
 import './css/bootstrap.min.css';
 import './css/core.css';
-//import './css/font-icon.min.css';
+import './css/font-icon.min.css';
 import './css/index.css';
 import './css/reset.css';
 import HeaderSection from './Components/Header';

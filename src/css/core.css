@@ -42,7 +42,7 @@ h6
 
 
 .slide-banner .banner-middle-center{overflow:hidden; position:relative;}
-.slide-banner .banner-middle-center .banner-img{padding-top:41.66666666666667%;}
+.slide-banner .banner-middle-center .banner-img{padding-top:41.66666666666667%; background-image:url(../images/main-slide.jpg);}
 .slide-banner .banner-middle-center .txt_content{z-index: 10; padding: 10px; max-width:100%; position:absolute; left:0; top:0; right:0; bottom:0; display:flex; -webkit-flex-direction: column; -ms-flex-direction: column;   -webkit-box-orient: vertical;   -webkit-box-direction: column;    flex-direction: column;}
 .slide-banner .banner-middle-center .txt_content .banner-txts{ text-align:center; top: 50%; left: 50%; transform: translate(-50%, -50%); position: absolute;  padding: 15px;  width: max-content !important;    max-width: 100%;}
 .slide-banner .banner-middle-center .txt_content .banner-txts h3{ color:#ffffff; font-size:50px; font-weight:500; margin:0px; line-height:1;}
@@ -53,6 +53,9 @@ h6
 
 
 .cat-banner-wrap{background-color:#f2f2f4;}
+.cat-banner1{background-image:url(../images/cat-banner-01.jpg);}
+.cat-banner2{background-image:url(../images/cat-banner-02.jpg);}
+.cat-banner3{background-image:url(../images/cat-banner-03.jpg);}
 .cat-banner-container{width: 100%; max-width: 100%; margin: -30px auto;  padding: 30px 30px 0;}
 .cat-banner-container .cat-space{position: relative;  height: 303px; margin-top:30px;}
 .cat-banner-container .banner_hzoom{overflow:hidden; position:relative;}
