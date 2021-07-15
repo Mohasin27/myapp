@@ -1,6 +1,6 @@
 // JavaScript source code
 import React from 'react';
-
+import { BsArrowRight } from "react-icons/bs";
 function NewsletterSubscription() {
     return (
         <div className="newsletter">
@@ -20,7 +20,7 @@ function NewsletterSubscription() {
                                 </div>
                                 <div className="col-md-auto col-12">
                                     <button type="submit" className="submit-btn truncate">
-                                        <span>Subscribe</span>
+                                        <span>Subscribe <BsArrowRight/></span>
                                     </button>
                                 </div>
                             </div>

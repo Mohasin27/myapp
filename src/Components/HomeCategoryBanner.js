@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { BsArrowRight } from "react-icons/bs";
 
 
 function HomeCategoryBanner() {
@@ -13,7 +13,7 @@ function HomeCategoryBanner() {
                         <a href="#url"></a>
                         <div className="banner_html">
                             <h3>lighting collections</h3>
-                            <h4>Explorer</h4>
+                            <h4>Explorer<BsArrowRight/> </h4>
                         </div>
                     </div>
                 </div>
@@ -23,7 +23,7 @@ function HomeCategoryBanner() {
                         <a href="#url"></a>
                         <div className="banner_html">
                             <h3>audio decor</h3>
-                            <h4>view collections</h4>
+                            <h4>view collections <BsArrowRight /></h4>
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ function HomeCategoryBanner() {
                         <a href="#url"></a>
                         <div className="banner_html">
                             <h3>new arrivals</h3>
-                            <h4>shop now</h4>
+                            <h4>shop now <BsArrowRight /></h4>
                         </div>
                     </div>
                 </div>

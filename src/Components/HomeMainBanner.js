@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { BsArrowRight } from "react-icons/bs";
 
 
 function HomeMainBanner() {
@@ -16,7 +16,7 @@ function HomeMainBanner() {
                                     <div className="space_banner"></div>
                                     <h4 className="h1_libre">looking for furniture for your living room</h4>
                                     <div className="imt_space"></div>
-                                    <a className="banner-btn" href="#url">shop now</a>
+                                    <a className="banner-btn" href="#url">shop now <BsArrowRight/></a>
                                 </div>
                             </div>
                             <a href="shop-hidden-sidebar.html" className="pa t__0 l__0 b__0 r__0"></a>

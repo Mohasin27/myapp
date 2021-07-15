@@ -1,4 +1,5 @@
 import React from 'react';
+import { BsArrowDown } from "react-icons/bs";
 
 function HomeBestsellers() {
     return (
@@ -156,7 +157,7 @@ function HomeBestsellers() {
                         </div>
                     </div>
                     <div className="products-footer">
-                        <a className="product-btn" href="#">Load More</a>
+                        <a className="product-btn" href="#">Load More <BsArrowDown/></a>
                     </div>
                 </div>
             </div>
