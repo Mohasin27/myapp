@@ -52,7 +52,39 @@ h6
 .slide-banner .banner-middle-center .txt_content .banner-txts .banner-btn svg  { display: inline-block;    margin-left: 5px;    font-size:22px;    color: #fff;}
 
 
-.cat-banner-wrap{background-color:#f2f2f4;}
+/****************** tooolbar navigation ******************/
+div.backdrop {position:fixed; width:100%; height:100%; top:0; left:0; z-index:100; background:rgba(0,0,0,0.3);}
+.toolbar {width:100%; text-align:left}
+.toolbar button.tool-button {background:none; border:0;padding:0; font-size:30px}
+
+nav.side-drawer {
+    height: 100%;
+    background: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 75%;
+    width: 300px;
+    z-index: 200;
+    padding: 15px;
+    text-align: left;
+    transform: translateX(-100%);
+    transition:transform 0.3s ease-out;
+}
+nav.side-drawer ul, nav.side-drawer ul li {margin:0; padding:0; list-style:none;}
+nav.side-drawer ul li {margin-bottom:10px}
+nav.side-drawer ul li a {color:#ffffff; display:flex; align-items:center; background:#333333; padding:5px 15px; border-radius:5px}
+nav.side-drawer ul li a:hover {background:#444444}
+
+nav.side-drawer ul li a svg {font-size:18px; margin-right:5px}
+
+nav.side-drawer.open {
+    transform:translateX(0);
+}
+
+.cat-banner-wrap {
+    background-color: #f2f2f4;
+}
 .cat-banner1{background-image:url(../images/cat-banner-01.jpg);}
 .cat-banner2{background-image:url(../images/cat-banner-02.jpg);}
 .cat-banner3{background-image:url(../images/cat-banner-03.jpg);}
@@ -166,3 +198,6 @@ h6
     .footer_bot .col-lg-6.col_2 { text-align: right;}
     #footer-menu { display: flex;  justify-content: flex-end;}
 }
+
+
+

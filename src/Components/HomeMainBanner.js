@@ -1,31 +1,32 @@
 import React from 'react';
-import { BsArrowRight } from "react-icons/bs";
+import BannerImg from '../images/main-slide.jpg';
+import '../css/carousel.css';
+var ReactDOM = require('react-dom');
+var Carousel = require('react-responsive-carousel').Carousel;
+var createReactClass = require('create-react-class');
 
 
-function HomeMainBanner() {
-    return (
-        <div className="type_image_text_overlay">
-            <div className="slide-banner">
-                <div className="row">
-                    <div className="col-12">
-                        <div className="banner-middle-center">
-                            <div className="banner-img"></div>
-                            <div className="txt_content">
-                                <div className="banner-txts">
-                                    <h3 className="h1">interior decorations</h3>
-                                    <div className="space_banner"></div>
-                                    <h4 className="h1_libre">looking for furniture for your living room</h4>
-                                    <div className="imt_space"></div>
-                                    <a className="banner-btn" href="#url">shop now <BsArrowRight/></a>
-                                </div>
-                            </div>
-                            <a href="shop-hidden-sidebar.html" className="pa t__0 l__0 b__0 r__0"></a>
-                        </div>
-                    </div>
+
+var DemoCarousel = createReactClass({
+    render() {
+        return (
+            <Carousel showArrows={true} showStatus={false} showThumbs={false} swipeable={true} emulateTouch={true} infiniteLoop={true}>
+                <div>
+                    <img src={BannerImg} alt="logo" />
+                    <p className="legend">Legend 1</p>
                 </div>
-            </div>
-        </div>
-    )
-}
+                <div>
+                    <img src={BannerImg} alt="logo" />
+                    <p className="legend">Legend 2</p>
+                </div>
+                <div>
+                    <img src={BannerImg} alt="logo" />
+                    <p className="legend">Legend 3</p>
+                </div>
+                
+            </Carousel>
+        );
+    }
+});
 
-export default HomeMainBanner;
+export default DemoCarousel;
