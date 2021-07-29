@@ -378,7 +378,6 @@ select {
     outline: 0;
     padding: 0 15px;
     color: #878787;
-    border-radius: 0;
     max-width: 100%;
 }
 
@@ -582,3 +581,16 @@ a, button, input, .swatch .nt-swatch {
     opacity: 0;
     height: 0 !important;
 }
+
+
+.error {
+    color: #f00;
+}
+
+
+/*-- Contact Us Form --*/
+.contact-heading h1{padding-top:7rem; text-align: center; font-size:40px; font-weight:bold;}
+.contactForm {margin:50px auto; padding:20px; width:50%; max-width:90%; border-radius: 5px; -webkit-box-shadow: 0 0 12px rgb(0 0 0 / 12%); box-shadow: 0 0 12px rgb(0 0 0 / 12%);}
+.contactForm label{margin-top:5px;}
+.contactForm textarea{font-size:13px; color:#878787; min-height:100px; resize:none;}
+ 
