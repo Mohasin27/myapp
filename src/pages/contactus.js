@@ -32,58 +32,85 @@ function Contactus() {
 
     const form = usePowerform(schema);
     return (
-        <div className="container">
-            <div className="contact-heading">
-                <h1>Contact Us</h1>
+        <div className="inner-container">
+            <div className="page_section_heading">
+                <div className="page-head ">
+                    <h1>Contact Us</h1>
+                    <p>Follow your passion, and success will follow you</p>
+                </div>
             </div>
-            <div className="contactForm">
+            <div className="container ">
+                <div className="row">
+                    <div className="contact-form col-12 col-md-6">
+                        <h3>DROP US A LINE</h3>
+                        <div class="form-group">
+                            <label for="Frist Name"><span className="error">*</span> Frist Name</label>
+                            <div>
+                                <input onInput={e => form.fristname.setData(e.target.value)} onChange={() => form.fristname.validate()} class="form-control" />
+                                <div className="error">{form.fristname.getError()}</div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="Last Name"><span className="error">*</span> Last Name</label>
+                            <div>
+                                <input onInput={e => form.lastname.setData(e.target.value)} onChange={() => form.lastname.validate()} class="form-control" />
+                                <div className="error">{form.lastname.getError()}</div>
+                            </div>
+                        </div>
+                        <div class="form-group ">
+                            <label for="Last Name"><span className="error">*</span> Email</label>
+                            <div>
+                                <input type="email" onInput={e => form.email.setData(e.target.value)} onChange={() => form.email.validate()} class="form-control email" />
+                                <div className="error">{form.email.getError()}</div>
+                            </div>
+                        </div>
+                        <div class="form-group ">
+                            <label for="Job Title"><span className="error">*</span> Job Title</label>
+                            <div>
+                                <input onInput={e => form.jobtitle.setData(e.target.value)} onChange={() => form.jobtitle.validate()} class="form-control" />
+                                <div className="error">{form.jobtitle.getError()}</div>
+                            </div>
+                        </div>
+                        <div class="form-group ">
+                            <label for="Job Title"><span className="error">*</span> Company Name</label>
+                            <div>
+                                <input onInput={e => form.companyname.setData(e.target.value)} onChange={() => form.companyname.validate()} class="form-control" />
+                                <div className="error">{form.companyname.getError()}</div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="Job Title">Additional Information</label>
+                            <div>
+                                <textarea onInput={e => form.additionalinformation.setData(e.target.value)} onChange={() => form.additionalinformation.validate()} class="form-control"></textarea>
+                                <div className="error">{form.additionalinformation.getError()}</div>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <button className="btn btn-primary" onClick={submit(form)}>Send</button>
+                        </div>
+                    </div>
+                    <div className="contact-content col-12 col-md-6">
+                        <h3>CONTACT INFORMATION</h3>
+                        <p>
+                            We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.
+                        </p>
+                        <p className="mb-5">
+                            184 Main Rd E, St Albans Victoria 3021, Australia
+                        </p>
+                        <p className="mb-5">
+                            1800-123-222 / 1900-1570-230
+                        </p>
+                        <p className="mb-5">
+                            contact@hitachi.com
+                        </p>
+                        <p className="mb-5">
+                            Everyday 9:00-17:00
 
-                <div class="form-group row">
-                    <label for="Frist Name" className="col-md-4"><span className="error">*</span> Frist Name</label>
-                    <div className="col-md-8">
-                        <input onInput={e => form.fristname.setData(e.target.value)} onChange={() => form.fristname.validate()} class="form-control" />
-                        <div className="error">{form.fristname.getError()}</div>
+                        </p>
                     </div>
-                </div>
-                <div class="form-group row">
-                    <label for="Last Name" className="col-md-4"><span className="error">*</span> Last Name</label>
-                    <div className="col-md-8">
-                        <input onInput={e => form.lastname.setData(e.target.value)} onChange={() => form.lastname.validate()} class="form-control" />
-                        <div className="error">{form.lastname.getError()}</div>
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="Last Name" className="col-md-4"><span className="error">*</span> Email</label>
-                    <div className="col-md-8">
-                        <input type="email" onInput={e => form.email.setData(e.target.value)} onChange={() => form.email.validate()} class="form-control email" />
-                        <div className="error">{form.email.getError()}</div>
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="Job Title" className="col-md-4"><span className="error">*</span> Job Title</label>
-                    <div className="col-md-8">
-                        <input onInput={e => form.jobtitle.setData(e.target.value)} onChange={() => form.jobtitle.validate()} class="form-control" />
-                        <div className="error">{form.jobtitle.getError()}</div>
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="Job Title" className="col-md-4"><span className="error">*</span> Company Name</label>
-                    <div className="col-md-8">
-                        <input onInput={e => form.companyname.setData(e.target.value)} onChange={() => form.companyname.validate()} class="form-control" />
-                        <div className="error">{form.companyname.getError()}</div>
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="Job Title" className="col-md-4">Additional Information</label>
-                    <div className="col-md-8">
-                        <textarea onInput={e => form.additionalinformation.setData(e.target.value)} onChange={() => form.additionalinformation.validate()} class="form-control"></textarea>
-                        <div className="error">{form.additionalinformation.getError()}</div>
-                    </div>
-                </div>
-                <div class="text-right">
-                    <button className="btn btn-primary" onClick={submit(form)}>Submit</button>
                 </div>
             </div>
+            
         </div>
     );
 };

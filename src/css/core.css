@@ -197,3 +197,28 @@ nav.side-drawer.open {
 .page-head h1 { font-size: 20px;  line-height: 20px;  font-weight: 700; color:#ffffff; font-family:Poppins, sans-serif; z-index:100; position:relative;}
 .page-head p{color:#ffffff; font-family:Poppins, sans-serif; z-index:100; position:relative;}
 
+.contact-form h3{ margin:40px 0px 20px 0px; font-weight:700;}
+.contact-content h3{ margin:40px 0px 20px 0px; font-weight:700;}
+.contact-content .mb-5{ margin-bottom:5px!important;}
+.contact-form .form-control {
+    border: 1px solid #ccc;
+    font-size: 13px;
+    outline: 0;
+    padding: 0 15px;
+    color: #878787;
+    border-radius: 0;
+    max-width: 100%;
+}
+.contact-form .btn-primary {
+    cursor: pointer;
+    border: 2px solid #222;
+    padding: 5px 25px;
+    background: #fff;
+    color: #222;
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    width:100%;
+    min-height: 40px;
+    margin-bottom:40px;
+}
