@@ -24,7 +24,7 @@ function Products() {
                     </div>
                         <div className="col-md-3 col-6">
                             <div className="product-wrapper">
-                            <div className="product-image"> <a><img src="./images/pl-03.jpg" /> </a></div>
+                            <div className="product-image"> <a><img src="./images/pl-02.jpg" /> </a></div>
                                 <div className="product-name"><a>Ante Facilisis Nec Porttitor</a></div>
                                 <div className="category-list">
                                     <div className="price-box">$86.00</div>
@@ -34,7 +34,7 @@ function Products() {
                         </div>
                         <div className="col-md-3 col-6">
                             <div className="product-wrapper">
-                                <div className="product-image"> <a><img src="./images/pl-3.jpg" /> </a></div>
+                                <div className="product-image"> <a><img src="./images/pl-03.jpg" /> </a></div>
                                 <div className="product-name"><a>Ante Facilisis Nec Porttitor</a></div>
                                 <div className="category-list">
                                     <div className="price-box">$86.00</div>
@@ -44,7 +44,7 @@ function Products() {
                         </div>
                         <div className="col-md-3 col-6">
                             <div className="product-wrapper">
-                                <div className="product-image"> <a><img src="./images/pl-4.jpg" /> </a></div>
+                                <div className="product-image"> <a><img src="./images/pl-04.jpg" /> </a></div>
                                 <div className="product-name"><a>Ante Facilisis Nec Porttitor</a></div>
                                 <div className="category-list">
                                     <div className="price-box">$86.00</div>
@@ -54,7 +54,7 @@ function Products() {
                         </div>
                         <div className="col-md-3 col-6">
                             <div className="product-wrapper">
-                                <div className="product-image"> <a><img src="./images/pl-5.jpg" /> </a></div>
+                                <div className="product-image"> <a><img src="./images/pl-05.jpg" /> </a></div>
                                 <div className="product-name"><a>Ante Facilisis Nec Porttitor</a></div>
                                 <div className="category-list">
                                     <div className="price-box">$86.00</div>
@@ -64,7 +64,7 @@ function Products() {
                         </div>
                         <div className="col-md-3 col-6">
                             <div className="product-wrapper">
-                                <div className="product-image"> <a><img src="./images/pl-6.jpg" /> </a></div>
+                                <div className="product-image"> <a><img src="./images/pl-06.jpg" /> </a></div>
                                 <div className="product-name"><a>Ante Facilisis Nec Porttitor</a></div>
                                 <div className="category-list">
                                     <div className="price-box">$86.00</div>
@@ -74,7 +74,7 @@ function Products() {
                         </div>
                         <div className="col-md-3 col-6">
                             <div className="product-wrapper">
-                                <div className="product-image"> <a><img src="./images/pl-7.jpg" /> </a></div>
+                                <div className="product-image"> <a><img src="./images/pl-07.jpg" /> </a></div>
                                 <div className="product-name"><a>Ante Facilisis Nec Porttitor</a></div>
                                 <div className="category-list">
                                     <div className="price-box">$86.00</div>
@@ -84,7 +84,7 @@ function Products() {
                         </div>
                         <div className="col-md-3 col-6">
                             <div className="product-wrapper">
-                                <div className="product-image"> <a><img src="./images/pl-8.jpg" /> </a></div>
+                                <div className="product-image"> <a><img src="./images/pl-08.jpg" /> </a></div>
                                 <div className="product-name"><a>Ante Facilisis Nec Porttitor</a></div>
                                 <div className="category-list">
                                     <div className="price-box">$86.00</div>
@@ -94,7 +94,7 @@ function Products() {
                         </div>
                         <div className="col-md-3 col-6">
                             <div className="product-wrapper">
-                                <div className="product-image"> <a><img src="./images/pl-9.jpg" /> </a></div>
+                                <div className="product-image"> <a><img src="./images/pl-09.jpg" /> </a></div>
                                 <div className="product-name"><a>Ante Facilisis Nec Porttitor</a></div>
                                 <div className="category-list">
                                     <div className="price-box">$86.00</div>

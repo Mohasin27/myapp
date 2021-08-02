@@ -14,7 +14,7 @@ const sideDrawer = props => {
             <ul>
                 {SidebarData.map((item, index) => {
                     return (
-                        <li key={index} className={item.cName} onClick={drawerClasses} >
+                        <li key={index} className={item.cName} onClick={() =>drawerClasses} >
                             <Link to={item.path}>
                                 {item.icon}
                                 <span>{item.title}</span>
